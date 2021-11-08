@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=PT+Sans:ital,wght@0,400;0,700;1,400&display=swap"
+		rel="stylesheet">
+	<link rel="stylesheet" href="css/style.css">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Lesson 16</title>
+</head>
+
+<body>
+	<div class="wrapper">
+		<header class="header">
+			Я шапка
+		</header>
+		<main class="main">
+
+			<div class="appointment appointment_margin-bottom">
+				<div class="appointment__container">
+					<div class="appointment__items">
+						<div class="appointment__item">
+							<form action="#" class="appointment__form form-appointment">
+								<div class="form-appointment__title">
+									Make an appointment
+								</div>
+								<div class="form-appointment__block block-input">
+
+									<div class="block-input__wrapper">
+										<input type="text" autocomplete="off" placeholder="Name" class="block-input__item"
+											name="name" id="name">
+									</div>
+									<div class="block-input__wrapper">
+										<input type="email" autocomplete="off" placeholder="Email" class="block-input__item"
+											name="email" id="email">
+									</div>
+									<div class="block-input__wrapper">
+										<input type="tel" autocomplete="off" placeholder="Phone Number" class="block-input__item"
+											name="tel" id="tel">
+									</div>
+									<div class="block-input__wrapper">
+										<input type="text" autocomplete="off" placeholder="Select Service"
+											class="block-input__item" name="service" id="name">
+									</div>
+									<div class="block-input__wrapper block-input__wrapper_last">
+										<textarea name="coment" placeholder="Name" autocomplete="off"
+											class="block-input__item block-input__item_last"
+											id="coment">Tell us about your puppers include his/her name</textarea>
+									</div>
+
+								</div>
+								<button type="submit" class="form-appointment__button button"><span>Make an
+										Appointment</span></button>
+
+
+							</form>
+						</div>
+						<div class="appointment__item">
+							<div class="appointment__content">
+								<div class="appointment__label">
+									Maxime placeat facere possimus omnis
+								</div>
+								<div class="appointment__text">
+									5,700+
+								</div>
+								<div class="appointment__subtitle">
+									customers served
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="summary summary_margin-bottom">
+				<div class="summary__container">
+					<div class="summary__item">
+						<form action="#" class="form-summary">
+							<h2 class="form-summary__title">
+								Summary
+							</h2>
+							<div class="form-summary__subtitle">
+								Estimate Shipping and Tax
+							</div>
+							<div class="form-summary__line">
+								<label for="country" class="form-summary__label label">Country</label>
+								<select name="country" id="country" class="form-summary__select input">
+									<option value="Australia">Australia</option>
+									<option value="Canada">Canada</option>
+									<option value="USA">USA</option>
+									<option value="Europe">Europe</option>
+								</select>
+							</div>
+
+							<div class="form-summary__line">
+								<label for="state" class="form-summary__label label">State/Province</label>
+								<input type="text" class="form-summary__input input" name="state" id="state">
+							</div>
+
+							<div class="form-summary__line">
+								<label for="zip" class="form-summary__label label">Zip/Postal Code</label>
+								<input type="number" class="form-summary__input input" name="zip" id="zip">
+							</div>
+
+							<div class="form-summary__text">
+								Standard Rate
+							</div>
+							<div class="form-summary__line">
+
+								<div class="radiobutton">
+									<input type="radio" class="radiobutton__input" checked name="radio" id="delivery-1">
+									<label for="delivery-1" class="radiobutton__label ">Price may vary
+										depending on the
+										item/destination. Shop Staff will contact you. $21.00</label>
+								</div>
+							</div>
+
+							<div class="form-summary__text form-summary__text_last">
+								Pickup from store
+							</div>
+							<div class="form-summary__line">
+								<div class="radiobutton">
+									<input type="radio" class="radiobutton__input" name="radio" id="delivery-2">
+									<label for="delivery-2" class="radiobutton__label">1234 Street Adress
+										City Address, 1234
+										$0.00</label>
+								</div>
+							</div>
+
+							<div class="form-summary__code">
+								Apply Discount Code
+							</div>
+							<div class="form-summary__line ">
+								<label for="zip" class="form-summary__label label">Enter discount
+									code</label>
+								<input type="number" class="form-summary__input input" placeholder="Enter Discount code"
+									name="zip" id="zip">
+								<button class="form-summary__button button-form">Apply Discount</button>
+							</div>
+
+						</form>
+					</div>
+				</div>
+			</div>
+			<div class="checkout ">
+				<div class="checkout__container">
+					<div class="checkout__item">
+						<h2 class="checkout__title">
+							Shipping Address
+						</h2>
+						<form action="#" class="checkout__form form-checkout">
+
+							<div class="form-checkout__line">
+								<label for="email-2" class="form-checkout__label label">Email Address<span>*</span></label>
+								<input type="email" required class="form-checkout__input input" name="email" id="email-2">
+							</div>
+
+							<div class="checkout__subtitle">
+								You can create an account after checkout.
+							</div>
+
+							<div class="form-checkout__line">
+								<label for="name" class="form-checkout__label label">First Name<span>*</span></label>
+								<input type="text" required class="form-checkout__input input" name="name" id="name">
+							</div>
+
+							<div class="form-checkout__line">
+								<label for="sername" class="form-checkout__label label">Last Name<span>*</span></label>
+								<input type="text" required class="form-checkout__input input" name="sername" id="sername">
+							</div>
+
+							<div class="form-checkout__line">
+								<label for="company" class="form-checkout__label label">Company<span>*</span></label>
+								<input type="text" required class="form-checkout__input input" name="company" id="company">
+							</div>
+
+							<div class="form-checkout__line">
+								<label for="street-address" class="form-checkout__label label">Street
+									Address<span>*</span></label>
+								<input type="text" required class="form-checkout__input input" name="street-address"
+									id="street-address">
+
+								<input type="text" required class="form-checkout__input input" name="street-address" id="">
+							</div>
+
+							<div class="form-checkout__line">
+								<label for="city" class="form-checkout__label label">City<span>*</span></label>
+								<input type="text" required class="form-checkout__input input" name="city" id="city">
+							</div>
+
+							<div class="form-checkout__line">
+								<label for="state" class="form-checkout__label label">State/Province<span>*</span></label>
+								<input type="text" placeholder="Please, input a region, state or province" required
+									class="form-checkout__input input" name="state" id="state">
+							</div>
+
+							<div class="form-checkout__line">
+								<label for="zip" class="form-checkout__label label">Zip/Postal Code<span>*</span></label>
+								<input type="text" required class="form-checkout__input input" name="zip" id="zip">
+							</div>
+
+							<div class="form-checkout__line">
+								<label for="country" class="form-checkout__label label">Country<span>*</span></label>
+								<input type="text" placeholder="United States" required class="form-checkout__input input"
+									name="country" id="country">
+							</div>
+
+							<div class="form-checkout__line">
+								<label for="phone" class="form-checkout__label label">Phone Number<span>*</span></label>
+								<input type="text" required class="form-checkout__input input" name="phone" id="phone">
+							</div>
+
+							<div class="form-checkout__radio radio-form">
+								<div class="radio-form__title label">
+									Standard Rate
+								</div>
+								<div class="radio-form__item">
+									<input type="radio" checked class="radio-form__input" name="adress" id="adress-1">
+									<label for="adress-1" class="radio-form__label">Price may vary depending on the
+										item/destination. Shop Staff will contact you. $21.00</label>
+								</div>
+
+								<div class="radio-form__title label">
+									Pickup from store
+								</div>
+								<div class="radio-form__item">
+									<input type="radio" class="radio-form__input" name="adress" id="adress-2">
+									<label for="adress-2" class="radio-form__label">1234 Street Adress City Address,1234</label>
+								</div>
+							</div>
+							<button class="form-checkout__button button-form">Next</button>
+						</form>
+					</div>
+				</div>
+			</div>
+
+			<div class="customers">
+				<div class="customers__container">
+					<div class="customers__item">
+						<h2 class="customers__title">Registered Customers</h2>
+						<h2 class="customers__subtitle">If you have an account, sign in with your email address.</h2>
+						<form action="#" class="customers__form form-customers">
+							<div class="form-customers__line">
+								<label for="email-1" class="label form-customers__label">Email <span>*</span></label>
+								<input type="email" placeholder="Enter your email" name="email" id="email-1"
+									class="form-customers__input input">
+							</div>
+							<div class="form-customers__line">
+								<label for="password" class="label form-customers__label">Password <span>*</span></label>
+								<input type="password" name="password" id="password" placeholder="Enter your password"
+									class="form-customers__input input">
+							</div>
+
+							<div class="form-customers__bottom">
+								<button class="button-form form-customers__button">Sign In</button>
+								<a href="#" class="form-customers__link">Forgot Your Password?</a>
+							</div>
+						</form>
+					</div>
+				</div>
+			</div>
+
+		</main>
+		<footer class=" footer">
+			Я подвал
+		</footer>
+	</div>
+</body>
+
+</html>
